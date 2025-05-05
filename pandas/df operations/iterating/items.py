@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("C:\\Users\\aggar\\Desktop\\students.csv")
+df = pd.read_csv("pandas/students.csv")
 
 print("DataFrame:\n\n", df)
 

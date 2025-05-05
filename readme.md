@@ -17,10 +17,16 @@ pandas/
         insertion_and_deletion/
         iterating/
         sorting/
+    groupby_method/
     join_and_concatenate/
     methods_and_attributes/
+    remove_whitespaces_and_characters/
     series/
+    statistical_functions/
     string_operations/
+    data.csv
+    demo.csv
+    students.csv
     README.md
 ```
 
@@ -150,6 +156,27 @@ This module demonstrates how to clean text data in Pandas by removing unwanted w
 - `strip()` – Removes leading and trailing whitespace or characters  
 - `lstrip()` – Removes leading (left-side) whitespace or characters  
 - `rstrip()` – Removes trailing (right-side) whitespace or characters
+
+---
+
+### Groupby method in Pandas
+
+By groupby function we split the data into groups, which will then help us to perform operations through differet functions like sum(), min(), max(), mean(), etc,.
+
+- we first split the object and combine the result
+- we then perform operation sum()
+- we then view the group
+
+### STatistical Functions
+
+- `sum()`: return the sum of the values
+- `count()`: return the count of non-empty values
+- `max()`: return the maxiumum of the values
+- `min()`: return the minimum of the values
+- `mean()`: return the mean of the values
+- `median()`: return the median of the values
+- `std()`: return the standard deviation of the values
+- `describe()`: return the summary statistics for each column
 
 ## 🚀 **How to Contribute**
 

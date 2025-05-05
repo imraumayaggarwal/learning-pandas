@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv(r"C:\Users\aggar\Desktop\demo.csv")
+df = pd.read_csv("pandas/demo.csv")
 print("Data:\n\n", df)
 
 # returns True for null values and rest as False
